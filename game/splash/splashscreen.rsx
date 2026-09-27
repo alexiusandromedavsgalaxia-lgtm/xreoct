@@ -24,7 +24,7 @@ return export default AnimationLogo;
 return TextAnimation                                               
                                                
                                                TextAnimation {
-                                          const TEXT [ "Keplerians Horror Games" ];
+                                          const TEXT [ "Estavisi Horror Games" ];
                                                  .type-text(
                                                    time(1, 0, 05)
                                                    draw(text(part(1, 5)))

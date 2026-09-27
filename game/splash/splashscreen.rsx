@@ -7,7 +7,7 @@ Splash {
 return Animation 
 
 Animation {
-  <asset>examplelogo.png<\asset>
+  <asset>examplelogo.png<\\asset>
 .drawlogo(
   time(1, 0, 03)
   draw(logo(part(1, 2)))
@@ -21,8 +21,8 @@ Animation {
                                           draw(logo(part(2)));
                                                     );
 return export default AnimationLogo;
-return TextAnimation                                               
-                                               
+return TextAnimation                                              
+                                              
                                                TextAnimation {
                                           const TEXT [ "Estavisi Horror Games" ];
                                                  .type-text(
@@ -32,3 +32,4 @@ return TextAnimation
                                                              draw(text(part(2)))
                                                    )
 }
+export default drawLogo, AnimText

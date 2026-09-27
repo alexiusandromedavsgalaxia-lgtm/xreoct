@@ -15,7 +15,8 @@ notification{
   .description((
     string: text
     text("Kehre in deine Stadt zurück, um weitere Feldfrüchte anzubauen, sonst verlierst du deine Siegesserie und die Ernte geht verloren.")
-    ))
+    const LANGUAGE { if textAppaerancce = true; use .(xreoct/game/startscreen/language.rs) function: .translate }
+))
              }
 }
    position-in-screen(

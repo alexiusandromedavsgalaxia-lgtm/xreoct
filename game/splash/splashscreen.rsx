@@ -3,7 +3,7 @@
 if user OpenApp return Splash
 
 Splash {
-  time(0, 0, 00)(screenBackground: #FFFFFF (black))
+  time(0, 0, 00)(screenBackground: #010002 (black))
 return Animation 
 
 Animation {

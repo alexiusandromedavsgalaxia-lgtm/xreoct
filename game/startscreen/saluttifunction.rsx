@@ -18,4 +18,6 @@ notification{
     ))
              }
 }
-             
+   position-in-screen(
+place: top
+)

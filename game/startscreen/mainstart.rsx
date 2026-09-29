@@ -24,7 +24,7 @@ const GAMECONFIGURATIONMENUICON [
   if download = true {
   <asset>~/game/cache/assets/configiconasset.cache<\asset>;
 };
-action(open.(xreoct/game/configmenu.rsx))
+action(open.(xreoct/game/startscreen/configmenu.rsx))
   ];
 };
 

@@ -1,10 +1,17 @@
 component.Screen
+
 screen {
-background(color(black);
+  background(color(black))
   text {
-    ;color(white);
-  content("Loading..");
-  typography(ROTT 2.4)
-};
-wait(time +*X -(0Xseconds.plus3)charge.gameassets());
-when(state=="finish"; redirect(/xreoct/game/game3D/gamefirst.rsx))
+    color(white)
+    content("Loading...")
+    typography(ROTT 2.4)
+  }
+
+  wait(time(3))
+  charge.gameassets()
+
+  when(state == "finish") {
+    redirect(route(game/game3D/gamefirst.mjs))
+  }
+}

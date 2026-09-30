@@ -1,4 +1,5 @@
 component.ConfigMenu
+
 ConfigMenu {
   screen {
     background(color: #000810)

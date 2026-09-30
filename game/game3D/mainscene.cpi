@@ -1,28 +1,52 @@
 #include <iostream>;
-main avoid {{
-  set std::main;
-get info mainScene;
-get info from mainConfig;
-if info procedd from mainBranch {{
-  avoid {{
-process void main iostream;
-include <iostream>
-}}
-}}
-}}
 
-component Scene {{
-  content {{
-main compilator undo refft avoid;
-void stream(main);
-set: default Scene; content {{
-  content.scene set(component(three(dimensions:sty(code(021102457229190::9259329929234*932922939)))));
-  content.scene set(component(house(dimensions:sty(code(01010102484885717224484*992292992:9919101010)))));
-  content.scene set(component(AREA(dimensions:sty(code(9276600303003*6550444020))));
-content.scene set(component(window(dimensions:sty(o2001349220202033:92929393939392))));
-content.scene set(component(door(dimensions:sty(90220101020234o:99992020100139494948))));
-content.scene set(component(rock(dimensions:sty(9201101001239933992:91929*9292))))
-}}
-                }}
-}}
-set main; redirect; redirect as page; route<route>repo.githuburl<www.github.com/alexiusandromedavsgalaxia-lgtm/xreoct/game/game3D/map.cpi></route>
+main avoid {
+  set std::main
+  get info mainScene
+  get info from mainConfig
+
+  if info proceed from mainBranch {
+    avoid {
+      process void main iostream
+      include <iostream>
+    }
+  }
+}
+
+component Scene {
+  content {
+    main compilator undo refft avoid
+    void stream(main)
+
+    set default Scene
+    content {
+      content.scene set(component(three(
+        dimensions: sty(code(021102457229190::9259329929234*932922939))
+      )))
+
+      content.scene set(component(house(
+        dimensions: sty(code(01010102484885717224484*992292992:9919101010))
+      )))
+
+      content.scene set(component(AREA(
+        dimensions: sty(code(9276600303003*6550444020))
+      )))
+
+      content.scene set(component(window(
+        dimensions: sty(code(2001349220202033:92929393939392))
+      )))
+
+      content.scene set(component(door(
+        dimensions: sty(code(90220101020234:99992020100139494948))
+      )))
+
+      content.scene set(component(rock(
+        dimensions: sty(code(9201101001239933992:91929*9292))
+      )))
+    }
+  }
+}
+
+set main
+redirect as page
+route <route>xreoct/game/game3D/map.cpi</route>

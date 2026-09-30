@@ -9,3 +9,5 @@ decadence2(-main.athlon.ero/athlon)
 set map
 }}
 }}
+set main;
+maincharacter(use <route>repo.github<www.github.com/alexiusandromedavsgalaxia-lgtm/xreoct/game/game3D/character.cpi></route>)

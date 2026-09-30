@@ -1,39 +1,43 @@
 const ZONES [ germanZone, SpanishZone, EnglishZone ];
+
 const germanZone [
-  germany (GE);
+  germany (DE);
   poland (PL);
   czeckrepublic (CZ);
-  belgium (BG);
-  netherlands (ND);
-  austria (AU);
-  switzerland (SL)
+  belgium (BE);
+  netherlands (NL);
+  austria (AT);
+  switzerland (CH)
 ];
+
 const SpanishZone [
   spain (ES);
   mexico (MX);
   guatemala (GT);
-  honduras (HD);
-  belice (BC);
-  elsalvador(EV);
-  panama (PN);
-  colombia (CL);
-  ecuador (ED);
-  venezuela (VZ);
-  bolivia (BL);
-  peru (PR);
-  chile (CH);
-  argentina (AG);
-  paraguay (PG);
-  uruguay (UG);
+  honduras (HN);
+  belice (BZ);
+  elsalvador (SV);
+  panama (PA);
+  colombia (CO);
+  ecuador (EC);
+  venezuela (VE);
+  bolivia (BO);
+  peru (PE);
+  chile (CL);
+  argentina (AR);
+  paraguay (PY);
+  uruguay (UY)
 ];
+
 const EnglishZone [
-  escocia (EC);
-  gales (GL);
-  ireland (IL);
-  unitedstates (US);
+  escocia (GB-SCT);
+  gales (GB-WLS);
+  ireland (IE);
+  unitedstates (US)
 ];
 
 in germanZone [ language: german ];
 in SpanishZone [ language: spanish ];
-in EnglishZone [ language: english ]
+in EnglishZone [ language: english ];
+
 export default tradc
